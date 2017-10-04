@@ -1,0 +1,35 @@
+{
+  "name": "MPhantom",
+  "version": "0.41",
+  "description": "MPhantom Application",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "Slavko Novak",
+    "email": "slavko.novak.esen@gmail.com",
+    "url": "http://esen.x10.mx/"
+  },
+  "homepage": "http://esen.x10.mx/mphantom/",
+  "repository": {
+    "type": "git",
+    "url": "ssh://538a3e0b4382ec79ed0000dc@nodejs-mphantom.rhcloud.com/~/git/nodejs.git"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "~3.4.4"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
